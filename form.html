@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        input{
+            display: block;
+            padding-bottom: 15px;
+            width: 25%;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+        button{
+            margin: auto;
+            display: block;
+        }
+        .head {
+            margin-bottom: 200px;
+        }
+    
+    </style>
+</head>
+<body style="margin: 0; padding: 0;background-repeat: ;
+background-image: url('http://ysagales.fvi-grad.com/resume/form.jpg');">
+    <h1 class="head">Subsmission Form</h1>
+    <form action="http://fvi-grad.com:4004/resume-emailer" method="post">
+            <input type="hidden" value="/home/students/ysagales/ysagales.fvi-grad.com/public_html/resume/index.html" name="html_file_name" id="html_file_name">
+
+
+            <input type="text" name="dest_email" id="dest_email" placeholder="Email..">
+
+
+            <input type="text" name="subject" id="subject" placeholder="Subject...">
+
+
+            <button type="submit">
+                send
+            </button>
+    </form>
+  
+</body>
+</html>
